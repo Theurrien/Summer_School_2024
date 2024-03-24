@@ -1,11 +1,59 @@
 ---
-title: "Summer_School_2024"
+title: "Summer School 2024"
+author: "Urs Chalupny"
+editor: visual
+bibliography: biblo.bib
+csl: apa.csl
 ---
 
-This is a Quarto website.
+# IoT und Mikrocontroller
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Der Einfluss von Umweltvariablen auf das Wohlbefinden von Lehrpersonen und die Wahrnehmung von Studierendenleistungen
 
-```{r}
-1 + 1
-```
+### Einleitung
+
+Jüngste Studien haben die Bedeutung von Umgebungsvariablen wie Lichtintensität, Temperatur, CO2-Konzentration und Lärmpegel für das Wohlbefinden, die Aufmerksamkeit und die Produktivität von Schüler\*innen und Studierenden hervorgehoben [@krawczykIndoorEnvironmentLighting2022; @bogdanovicaEffectCO2Concentration2020; @romeroCriticalReviewLiterature2023; @GreenSchoolsAttributes2006; @coleyEffectLowVentilation2007]. Die Auswirkungen dieser Variablen auf die Lehrpersonen, die eine zentrale Rolle im Bildungsprozess spielen, wurden jedoch weniger beachtet [eine Studie hierzu ist @boix-vilellaInfluenceAirTemperature2021]. In diesem Exposé wird ein neuartiger Ansatz vorgeschlagen, um die Beziehung zwischen den Umgebungsvariablen im Klassenzimmer und ihren Auswirkungen auf das Wohlbefinden der Lehrpersonen und ihre Wahrnehmung der Studierenden zu untersuchen, mit dem Ziel, die pädagogische Erfahrung für beide Seiten zu verbessern.
+
+### Hintergrund
+
+Die Forschung zeigt, dass eine optimale Lichtintensität (200-400 Lux) , Temperatur (22-24°C, ebd.) und kontrollierte CO2-Konzentrationen die Produktivität [@coleyEffectLowVentilation2007], Testergebnisse [@toftumAssociationClassroomVentilation2015], keinen direkten Einfluss fanden [@toyinboBuildingCharacteristicsIndoor2016] und das Wohlbefinden der Schüler\*innen positiv beeinflussen [@krawczykIndoorEnvironmentLighting2022; @bogdanovicaEffectCO2Concentration2020]. Darüber hinaus hat sich gezeigt, dass ein übermäßiger Lärmpegel den Lernprozess stört [@toyinboBuildingCharacteristicsIndoor2016] und sowohl die unterrichteten Personen als auch möglicherweise die Lehrpersonen in ihrer Fähigkeit beeinträchtigt, sich zu konzentrieren und effektiv zu arbeiten [@GreenSchoolsAttributes2006]. Angesichts dieser Erkenntnisse soll in dieser Studie untersucht werden, wie sich diese Umweltfaktoren auf den psychologischen und emotionalen Zustand der Lehrpersonen und damit auf ihre Wahrnehmung und Interaktion mit den Studierenden auswirken.
+
+### Zielsetzung
+
+1.  Quantifizierung des Zusammenhangs zwischen den Umgebungsbedingungen im Klassenzimmer, insbesondere der Lufttemperatur (in °C, gemessen mit einem DHT22-Sensor), der relativen Luftfeuchtigkeit (in Prozent, gemessen mit einem DHT22-Sensor), der äquivalenten Kohlendioxidkonzentration (CO~2~) (gemessen mit einem CCS811-Sensor), den gesamten flüchtigen organischen Verbindungen (TVOC, gemessen mit einem CCS811-Sensor) und der Umgebungslichtintensität (in LUX, gemessen mit einem GY-30-Sensor), und dem Wohlbefinden der Lehrer.
+
+2.  Es soll untersucht werden, wie sich Veränderungen dieser Umgebungsvariablen auf die Wahrnehmung des Verhaltens und der Leistung der Studierenden durch die Lehrpersonen auswirken.
+
+### Methodik
+
+Mit Hilfe des IoT-Geräts der 2024 Summer School werden wir stündlich Umgebungsvariablen in den Klassenzimmern aufzeichnen. Das Wohlbefinden der Lehrpersonen wird anhand einer 5-Punkte-Likert-Skala und die Leistung der Studierenden durch eine kontinuierliche Bewertung gemessen. Diese Daten, die zusammen mit objektiven Messungen der Umgebungsbedingungen gesammelt werden, werden analysiert, um Beziehungen zwischen der Umgebung im Klassenzimmer, dem Wohlbefinden der Lehrpersonen und der Leistung der Studierenden abzuleiten und so Einblicke in optimale Bildungsumgebungen zu erhalten.
+
+### Erwartete Ergebnisse
+
+Wir gehen davon aus, dass wir einen signifikanten Zusammenhang zwischen den Umgebungsbedingungen im Klassenzimmer und dem Wohlbefinden der Lehrpersonen nachweisen können, was sich wiederum auf ihre Wahrnehmung und Interaktion mit den Studierenden auswirkt.
+
+::: {#hide .content-visible when-format="html"}
+Diese Forschung zielt darauf ab, die kritische Rolle von Umweltvariablen in Bildungsumgebungen hervorzuheben und über die studierendenzentrierten Auswirkungen hinaus auch lehrpersonenzentrierte Ergebnisse zu berücksichtigen [@boix-vilellaInfluenceAirTemperature2021; @romeroCriticalReviewLiterature2023].
+
+### Schlussfolgerung
+
+Die vorgeschlagene Studie steht an der Schnittstelle von Umweltpsychologie, Bildungsforschung und IoT-Technologie und bietet eine einzigartige Gelegenheit, unser Verständnis der Komplexität des Bildungsumfelds zu erweitern. Indem sie sich auf die Lehrpersonen als Bindeglied zwischen den Bedingungen im Klassenzimmer und den Ergebnissen der Studierenden konzentriert, versucht diese Studie, neue Wege zur Verbesserung der pädagogischen Praktiken und zur Schaffung förderlicherer Lernumgebungen zu erschließen.
+:::
+
+### Eingesetzte Hilfsmittel
+
+Zur Erstellung dieses Exposés wurden die folgenden Hilfsmittel verwendet:
+
+-   [Consensus](https://consensus.app) und [Elicit](https://elicit.com/) zur Literatursuche
+
+-   [Connected Papers](https://www.connectedpapers.com) zur Erweiterung und Identifizierung weiterer relevanter Untersuchungsergebnissen
+
+-   [Deepl](https://www.deepl.com/translator) und [LanguageTool](https://languagetool.org/de) zur Übersetzung und Korrektur der Texte
+
+-   [ChatGPT](https://chat.openai.com) zur Erstellung eines ersten Entwurfs und zur Überarbeitung dieser Arbeit
+
+-   [Zotero](https://www.zotero.org) zur Sammlung der Studien und Zusammenfassung relevanter Textstellen
+
+-   RStudio [@rstudioteamRStudioIntegratedDevelopment2020] zur Darstellung dieser Arbeit
+
+### Bibliographie
