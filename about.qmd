@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Diese Seite dient als Speicherort meiner Arbeiten zur Summer School 2024.
