@@ -1,6 +1,6 @@
 ---
-title: "About"
-title-block-banner: header_about.png
+title: "Umsetzung des Projektes"
+title-block-banner: header_u.png
 include-in-header:
   - text: |
       <style>
@@ -12,4 +12,4 @@ include-in-header:
       </style>
 ---
 
-Diese Seite dient als Zusammenfassung der verschiedenen Aufgaben der Summer School: Digitale Methoden und Tools 2024 an der FHNW.
+Die fogenden Ausführungen beziehen sich auf die zweite Aufage zum IoT und Mikrocontroller der Summer School 2024.

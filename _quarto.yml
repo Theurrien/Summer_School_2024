@@ -3,18 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "Summer_School_2024"
+  title: "Summer School 2024"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - umsetzung.qmd
       - about.qmd
+    logo: logo_iot.png
 
 format:
   html:
-    theme: cosmo
+    theme: solar
     css: styles.css
     toc: true
-
+    
 editor: visual
 
