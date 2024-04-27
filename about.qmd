@@ -12,4 +12,4 @@ include-in-header:
       </style>
 ---
 
-Diese Seite dient als Zusammenfassung der verschiedenen Aufgaben der Summer School: Digitale Methoden und Tools 2024 an der FHNW.
+Diese Seite dient als Zusammenfassung der verschiedenen Aufgaben der Summer School: Digitale Methoden und Tools 2024 an der FHNW. Es geht bald weiter!
