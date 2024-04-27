@@ -1,14 +1,24 @@
 ---
 title: "Summer School 2024"
-author: "Urs Chalupny"
-editor: visual
+title-block-banner: header_home.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        color: #ffffff;
+        height: 200px;
+      }
+      </style>
 bibliography: biblo.bib
 csl: apa.csl
 ---
 
+![](/header_home.png){fig-align="center"}
+
 # IoT und Mikrocontroller
 
-## Projektbeschreibung
+## Projektbeschreibun
 
 ### Titel
 
